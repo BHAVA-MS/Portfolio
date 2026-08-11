@@ -7,7 +7,7 @@ export const personalInfo = {
   location: "Coimbatore, Tamil Nadu, India",
   github: "https://github.com/BHAVA-MS",
   linkedin: "https://www.linkedin.com/in/bhavadharini-s-2b0382324/",
-  web3FormsAccessKey: "YOUR_WEB3FORMS_ACCESS_KEY", // Replace with your free key from https://web3forms.com
+  web3FormsAccessKey: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || "3a34016d-9580-4eb6-bbb0-52d975ec703b",
   stats: [
     { label: "Current CGPA", value: "8.23", subtext: "B.E. Computer Science" },
     { label: "Batch", value: "2024 - 2028", subtext: "Dr. N.G.P. Tech" },
